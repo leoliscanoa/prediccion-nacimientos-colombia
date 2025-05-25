@@ -1,5 +1,6 @@
 # Predicción de Nacimientos en Colombia
-Un modelo de Machine Learning predictivo para analizar y proyectar las tasas de natalidad en Colombia utilizando datos históricos del DANE. Este proyecto tiene como objetivo apoyar la planificación de políticas públicas relacionadas con salud, educación e infraestructura, mediante un análisis detallado de los datos y visualizaciones gráficas interactivas.
+Un modelo de Machine Learning predictivo para analizar y proyectar las tasas de natalidad en Colombia utilizando datos históricos del DANE.
+
 ## Tabla de Contenidos
 - [Características](#caracter%C3%ADsticas)
 - [Visualizaciones](#visualizaciones)
@@ -12,19 +13,19 @@ Un modelo de Machine Learning predictivo para analizar y proyectar las tasas de 
 - [Referencias](#referencias)
 
 ## Características
-- **Modelo Predictivo**: Implementación de modelos de aprendizaje automático para pronosticar nacimientos basados en patrones históricos.
-- **Datos Oficiales**: Uso de microdatos suministrados por el DANE para asegurar precisión y calidad en las predicciones.
-- **Visualizaciones Dinámicas**: Gráficos y tablas informativas con bibliotecas como `matplotlib` y . `seaborn`
-- **Análisis Descriptivo**: Exploración de las tendencias de natalidad y sus relaciones con factores demográficos.
-- **Documentación y Transparencia**: Proceso y código bien documentado para replicabilidad y ampliación del proyecto.
+- **Modelo predictivo**: Implementación de modelos de aprendizaje automático para pronosticar nacimientos basados en patrones históricos.
+- **Datos oficiales**: Uso de microdatos suministrados por el DANE para asegurar precisión y calidad en las predicciones.
+- **Visualizaciones**: Gráficos y tablas informativas con bibliotecas como `matplotlib` y . `seaborn`
+- **Análisis descriptivo**: Exploración de las tendencias de natalidad y sus relaciones con factores demográficos.
+- **Documentación y transparencia**: Proceso y código bien documentado para replicabilidad y ampliación del proyecto.
 
 ## Visualizaciones
 El análisis incluye las siguientes visualizaciones:
-1. **Tendencia Anual de Nacimientos**: Gráficas de líneas que muestran la evolución de los nacimientos por año.
-2. **Distribución por Género**: Histograma de la proporción de nacimientos masculinos y femeninos.
-3. **Características Geográficas**: Mapas temáticos que proyectan tasas de nacimiento por departamento y municipio.
-4. **Factores Asociados con la Natalidad**: Gráficos de barras para explorar características como edad materna, peso al nacer y nivel educativo de las madres.
-5. **Tendencia Mensual de Nacimientos**: Análisis por mes para observar estacionalidad en las tasas de natalidad.
+1. **Tendencia anual de nacimientos**: Gráficas de líneas que muestran la evolución de los nacimientos por año.
+2. **Distribución por género**: Histograma de la proporción de nacimientos masculinos y femeninos.
+3. **Características geográficas**: Mapas temáticos que proyectan tasas de nacimiento por departamento y municipio.
+4. **Factores asociados con la natalidad**: Gráficos de barras para explorar características como edad materna, peso al nacer y nivel educativo de las madres.
+5. **Tendencia mensual de nacimientos**: Análisis por mes para observar estacionalidad en las tasas de natalidad.
 
 ## Requisitos
 - **Python 3.9 o superior**
@@ -46,27 +47,21 @@ El análisis incluye las siguientes visualizaciones:
    pip install -r requirements.txt
 ```
 ## Uso
-1. Explorar y preprocesar los datos:
-    - Ejecutar el archivo correspondiente al análisis exploratorio de datos (EDA).
+1. Asegúrate de abrir el archivo Jupyter Notebook () y verifica que tu entorno contiene todas las dependencias necesarias. `actividad-5.ipynb`
+2. Ejecuta el Notebook paso a paso:
+    - Las celdas están organizadas de manera secuencial, iniciando con el análisis exploratorio de datos (EDA) y terminando con el modelo predictivo.
+    - Asegúrate de seguir las instrucciones documentadas en cada celda para utilizarlo correctamente.
 
-2. Entrenar el modelo:
-    - Correr el script encargado del entrenamiento de modelos predictivos:
-``` 
-     python train_model.py
-```
-1. Visualizar resultados:
-    - Consultar los gráficos generados en el proceso de análisis:
-``` 
-     python visualize_results.py
-```
-1. Hacer predicciones con nuevos datos:
-    - Usar el modelo guardado para generar predicciones:
-``` 
-     python predict.py --input input_data.csv --output predictions.csv
-```
+3. Analiza los resultados:
+    - Interactúa con los gráficos generados.
+    - Observa las salidas de los modelos predictivos.
+    - Explora las visualizaciones obtenidas y ajusta los parámetros de ser necesario dentro de las celdas.
+
+4. Modifica o adapta el Notebook de ser necesario para nuevos análisis o predicciones.
+
 ## Estructura del Proyecto
 ``` 
-birth-prediction/
+aplicaciones-1-machine-learning/
 ├── data/
 │   ├── nac2020.csv                    # Microdatos de nacimientos del 2020
 │   ├── nac2021.csv                    # Microdatos de nacimientos del 2021
@@ -88,8 +83,8 @@ El proyecto está licenciado bajo [Creative Commons Attribution-NonCommercial-Sh
 
 ### Condiciones:
 - **Reconocimiento**: Dar crédito a los autores originales.
-- **No Comercial**: No usar el proyecto para fines comerciales.
-- **Mismos Términos**: Distribuir las obras derivadas bajo la misma licencia.
+- **No comercial**: No usar el proyecto para fines comerciales.
+- **Mismos términos**: Distribuir las obras derivadas bajo la misma licencia.
 
 Consulta el archivo [LICENSE.txt](LICENSE.txt) para más detalles.
 
