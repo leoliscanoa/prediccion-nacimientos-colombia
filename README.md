@@ -79,12 +79,14 @@ aplicaciones-1-machine-learning/
 │   ├── nac2022.csv                    # Microdatos del 2022
 │   └── BD-EEVV-Nacimientos-2023.csv   # Microdatos más recientes
 ├── helpers/
-│   ├── generate_dict.py               # Script para generar diccionario de datos
+│   └── generate_dict.py               # Script para generar diccionario de datos
+├── html/
+│   └── actividad-5.html               # Archivo HTML de actividad-5.ipynb
 ├── actividad-5.ipynb                  # Archivo con implementación de machine learning
 ├── CONTRIBUTING.md                    # Archivo con participantes del proyecto
-├── requirements.txt                   # Dependencias necesarias
+├── LICENSE.txt                        # Licencia del proyecto
 ├── README.md                          # Documentación del proyecto
-└── LICENSE.txt                        # Licencia del proyecto
+└── requirements.txt                   # Dependencias necesarias
 ```
 
 ## Licencia
