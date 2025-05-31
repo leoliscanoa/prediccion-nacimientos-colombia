@@ -5,6 +5,7 @@ Un modelo de Machine Learning predictivo para analizar y proyectar las tasas de 
 - [Características](#caracter%C3%ADsticas)
 - [Visualizaciones](#visualizaciones)
 - [Requisitos](#requisitos)
+- [Datos utilizados](#datos-utilizados)
 - [Instalación](#instalaci%C3%B3n)
 - [Uso](#uso)
 - [Estructura del Proyecto](#estructura-del-proyecto)
@@ -35,6 +36,16 @@ El análisis incluye las siguientes visualizaciones:
     - matplotlib 3.7.0 o superior
     - seaborn 0.12.0 o superior
     - scikit-learn 1.2 o superior
+
+## Datos utilizados:
+
+Se utilizarán los siguientes archivos CSV, que contienen datos de nacimientos en Colombia para los años 2020, 2021, 2022 y 2023:
+- [Estadísticas Vitales - EEVV – 2020](https://microdatos.dane.gov.co/index.php/catalog/732)
+- [Estadísticas Vitales - EEVV – 2021](https://microdatos.dane.gov.co/index.php/catalog/775)
+- [Estadísticas Vitales - EEVV – 2022](https://microdatos.dane.gov.co/index.php/catalog/807)
+- [Estadísticas Vitales - EEVV – 2023](https://microdatos.dane.gov.co/index.php/catalog/843)
+
+>Fuente: Departamento Administrativo Nacional de Estadística: www.dane.gov.co. Queda en cambio prohibida la copia o reproducción de los datos en cualquier medio electrónico (redes, bases de datos, cd rom, diskettes) que permita la disponibilidad de esta información a múltiples usuarios sin el previo visto bueno del DANE por medio escrito.
 
 ## Instalación
 1. Crear un entorno virtual:
@@ -67,9 +78,10 @@ aplicaciones-1-machine-learning/
 │   ├── nac2021.csv                    # Microdatos de nacimientos del 2021
 │   ├── nac2022.csv                    # Microdatos del 2022
 │   └── BD-EEVV-Nacimientos-2023.csv   # Microdatos más recientes
+├── helpers/
+│   ├── generate_dict.py               # Script para generar diccionario de datos
 ├── actividad-5.ipynb                  # Archivo con implementación de machine learning
 ├── CONTRIBUTING.md                    # Archivo con participantes del proyecto
-├── diccionario_de_datos.md            # Archivo con ampliación del diccionario de datos del DANE
 ├── requirements.txt                   # Dependencias necesarias
 ├── README.md                          # Documentación del proyecto
 └── LICENSE.txt                        # Licencia del proyecto
