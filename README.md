@@ -82,7 +82,7 @@ aplicaciones-1-machine-learning/
 │   └── generate_dict.py               # Script para generar diccionario de datos
 ├── html/
 │   └── actividad-5.html               # Archivo HTML de actividad-5.ipynb
-├── actividad-5.ipynb                  # Archivo con implementación de machine learning
+├── main.ipynb                         # Archivo con implementación de machine learning
 ├── CONTRIBUTING.md                    # Archivo con participantes del proyecto
 ├── LICENSE.txt                        # Licencia del proyecto
 ├── README.md                          # Documentación del proyecto
